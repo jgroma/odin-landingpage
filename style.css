@@ -11,6 +11,12 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -22,12 +28,15 @@ body {
 }
 
 ul {
+    display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
+    gap: 20px;
 }
 
 .intro-section {
+    display: flex;
 }
 
 .intro-heading {
@@ -55,10 +64,20 @@ button {
     color: #F9FAF8;
 }
 
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-heading {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+}
+
+.card {
+    display: flex;
 }
 
 .box {
@@ -90,6 +109,9 @@ button {
 }
 
 .container-sign-up-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #3882F6;
     max-height: 100px;
     max-width: 800px;
@@ -108,6 +130,7 @@ button {
 .bottom-button {
     border: 2px solid #F9FAF8;
     padding: 2px;
+    align-self: flex-end;
 }
 
 .footer {
